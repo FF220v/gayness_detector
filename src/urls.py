@@ -1,0 +1,4 @@
+REDIS_URL = 'lecture_webdis'
+REDIS_HTTP_PORT = 7379
+
+REDIS_HTTP_URL = f'http://{REDIS_URL}:{REDIS_HTTP_PORT}'
